@@ -1,0 +1,19 @@
+.main-container{
+    display: flex;
+    .side-bar{
+        width: 260px;
+        min-width: 240px;
+        min-height: 100vh;
+        background-color: #2368a0;
+        color: #fff;
+        box-shadow: 5px 5px 5px #939393;
+        @media only screen and (max-width:1300px){
+            width: 100px;
+            min-width: 100px;
+        }
+    }
+    .main {
+        padding: 30px;
+    }
+}
+
